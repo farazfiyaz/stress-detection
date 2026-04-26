@@ -1,0 +1,61 @@
+# === Trained model weights ===
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.keras
+
+# === OpenCV Haar cascade (ships with OpenCV install) ===
+haarcascade_*.xml
+
+# === Raw datasets ===
+data/
+datasets/
+**/train/
+**/test/
+**/fer2013/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.Python
+build/
+dist/
+.eggs/
+
+# === Virtual envs ===
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# === Django ===
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === IDE / OS ===
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Secrets ===
+.env
+*.pem
+*.key
